@@ -4,8 +4,77 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Billionaire's Luxury</title>
-  <style>
-    body {
+  <sty<style>
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 220px;
+  }
+
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .product-card h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+  }
+
+  .product-card p {
+    margin: 5px 0;
+  }
+
+  .product-card button {
+    padding: 8px 16px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .product-card button:hover {
+    background: #333;
+  }
+  </stylele>
+   body <h2 style="text-align:center;">Featured Products</h2>
+<div class="product-grid">
+  <div class="product-card">
+    <img src="https://via.placeholder.com/200x250" alt="Product 1" />
+    <h3>Men's Black Hoodie</h3>
+    <p>$79.99</p>
+    <p>Size: S, M, L, XL</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="https://via.placeholder.com/200x250" alt="Product 2" />
+    <h3>Women's White Sneakers</h3>
+    <p>$99.00</p>
+    <p>Size: 6, 7, 8, 9</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="product-card">
+    <img src="https://via.placeholder.com/200x250" alt="Product 3" />
+    <h3>Unisex Denim Jacket</h3>
+    <p>$129.00</p>
+    <p>Size: M, L, XL</p>
+    <button>Add to Cart</button>
+  </div>
+</div> {
       font-family: Arial, sans-serif;
       background-color: #f7f7f7;
       text-align: center;
